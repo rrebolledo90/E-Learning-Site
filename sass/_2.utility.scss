@@ -25,3 +25,15 @@ $line-hieght: (
   "line-hieght-tablet-phone-content": 1.625rem,
   "line-hieght-tablet-phone-h2-title": 2rem,
 );
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+@function font($font-size) {
+  @return map-get($typography, $font-size);
+}
+
+@function line-height($line-h) {
+  @return map-get($line-hieght, line-h);
+}

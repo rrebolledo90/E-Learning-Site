@@ -1,0 +1,53 @@
+.hero-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.hero-content-cnt {
+  display: flex;
+  flex-direction: column;
+}
+.hero-section {
+  h1 {
+    font-size: font(fontsize-l-main-title);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    line-height: line-height(line-hieght-l-main-tablet-phone-title);
+    margin-top: 2.375rem;
+  }
+  button {
+    align-self: flex-start;
+    background: #f02ba6;
+    background: linear-gradient(0deg, #f02ba6, #ff7048);
+    color: color(color-white);
+    margin-top: 1.5rem;
+  }
+  button:hover {
+    opacity: 0.5;
+  }
+  p {
+    font-size: font(fontsize-small-body);
+    color: color(color-gray);
+    line-height: line-height(line-hieght-tablet-phone-content);
+    margin-top: 1.625rem;
+  }
+  .mobile-img {
+    max-width: 20.4375rem;
+  }
+
+  .desktop-tablet-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hero-section {
+    flex-direction: row;
+  }
+  .mobile-img {
+    display: none;
+  }
+}

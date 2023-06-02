@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 body,
 h1,
 h2,
 h3,
 p {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,4 +28,86 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.6875rem;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 93.75rem;
+  align-items: center;
+}
+
+button {
+  padding: 0.875rem 1.9688rem;
+  border-radius: 1.875rem;
+  font-size: 1rem;
+  border: none;
+  transition-duration: 3s;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav button {
+  background-color: #13183f;
+  color: #fff;
+}
+nav img {
+  max-width: 111px;
+  max-height: 27px;
+}
+nav button:hover {
+  background-color: #666ca3;
+}
+
+.hero-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.hero-content-cnt {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 2.375rem;
+}
+.hero-section button {
+  align-self: flex-start;
+  background: #f02ba6;
+  background: linear-gradient(0deg, #f02ba6, #ff7048);
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.hero-section button:hover {
+  opacity: 0.5;
+}
+.hero-section p {
+  font-size: 1rem;
+  color: #83869a;
+  margin-top: 1.625rem;
+}
+.hero-section .mobile-img {
+  max-width: 20.4375rem;
+}
+.hero-section .desktop-tablet-img {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .hero-section {
+    flex-direction: row;
+  }
+  .mobile-img {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

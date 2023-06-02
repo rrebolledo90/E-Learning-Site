@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.6875rem;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 93.75rem;
+  align-items: center;
+}
+button {
+  padding: 0.875rem 1.9688rem;
+  border-radius: 1.875rem;
+  font-size: font(fontsize-small-body);
+  border: none;
+  transition-duration: 3s;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav {
+  button {
+    background-color: color(color-dark-blue);
+    color: color(color-white);
+  }
+  img {
+    max-width: 111px;
+    max-height: 27px;
+  }
+  button:hover {
+    background-color: color(color-purple);
+  }
+}

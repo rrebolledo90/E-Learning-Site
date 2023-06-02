@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="assets/favicon-32x32.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+    </style>
     <link rel="stylesheet" href="style/css/main.css" />
     <title>E | Learning</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="navigation">
+        <img src="assets/logo-dark.svg" alt="Skilled" />
+        <button>Get Started</button>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-section">
+        <div class="hero-content-cnt">
+          <h1>Maximize skill, minimize budget</h1>
+          <p>
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <button>Get Started</button>
+        </div>
+        <picture class="desktop-tablet-img-cnt">
+          <source
+            media="(min-width: 1000px)"
+            srcset="assets/image-hero-desktop@2x.webp"
+            alt="Picture of women on computer"
+          />
+          <source
+            media="(min-width: 500px)"
+            srcset="assets/image-hero-tablet.png"
+          />
+          <img
+            class="desktop-tablet-img"
+            src="assets/image-hero-tablet.webp"
+            alt="picture of women on computer"
+          />
+        </picture>
+        <img
+          class="mobile-img"
+          src="assets/image-hero-mobile@2x.png"
+          alt="picture of women on computer"
+        />
+      </section>
+    </main>
+  </body>
 </html>

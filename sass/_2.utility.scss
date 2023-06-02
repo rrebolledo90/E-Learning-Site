@@ -1,0 +1,27 @@
+// Colors
+$colors: (
+  "color-purple": #666ca3,
+  "color-dark-blue": #13183f,
+  "color-gray": #83869a,
+  "color-hot-pink": #f74780,
+  "color-pink": #ffa7c3,
+  "color-white": #fff,
+  "color-pink-gradient": #f02aa6 - FF6F48,
+  "color-purple-gradient": #4851ff - F02AA6,
+);
+
+$typography: (
+  "fontsize-small-body": 1rem,
+  "fontsize-medium-body": 1.125rem,
+  "fontsize-xl-main-title": 3.5rem,
+  "fontsize-l-main-title": 2.5rem,
+  "fontsize-m-title": 2rem,
+  "fontsize-s-title": 1.5rem,
+);
+$line-hieght: (
+  "line-hieght-xl-desktop": 4.375rem,
+  "line-hieght-small-desktop-body": 1.75rem,
+  "line-hieght-l-main-tablet-phone-title": 2.5rem,
+  "line-hieght-tablet-phone-content": 1.625rem,
+  "line-hieght-tablet-phone-h2-title": 2rem,
+);

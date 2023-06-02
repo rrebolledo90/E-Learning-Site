@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  font-family: var(--font-family);
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}/*# sourceMappingURL=main.css.map */

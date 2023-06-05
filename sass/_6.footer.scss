@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.6875rem;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 93.75rem;
+  align-items: flex-end;
+  background-color: color(color-dark-blue);
+  margin-top: 8.75rem;
+  padding-bottom: 1.875rem;
+  img {
+    margin-left: 150px;
+  }
+  button:hover {
+    background-color: #ffa7c3;
+  }
+  .footer-btn {
+    background: linear-gradient(0deg, #4851ff, #f02aa6);
+    margin-right: 150px;
+  }
+}

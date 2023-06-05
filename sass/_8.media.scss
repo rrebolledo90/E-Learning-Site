@@ -55,4 +55,8 @@
   .tablet-section {
     grid-template-columns: repeat(1, 1fr);
   }
+  .body-section {
+    width: 60%;
+    margin: 0 auto;
+  }
 }

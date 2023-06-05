@@ -24,15 +24,21 @@
   .box-one {
     background: #f02ba6;
     background: linear-gradient(0deg, #f02ba6, #ff7048);
+    justify-content: flex-end;
   }
 
   h2 {
-    font-size: font(fontsize-m-title);
+    font-size: clamp(1.04rem, calc(0.72rem + 1.62vw), 2.24rem);
     text-align: left;
-    width: 75%;
+    width: 80%;
+    color: color(color-dark-blue);
   }
   .body-img {
     align-self: flex-start;
     padding-bottom: 20px;
+  }
+  p {
+    font-size: font(fontsize-medium-body);
+    color: color(color-gray);
   }
 }

@@ -138,15 +138,21 @@ nav button:hover {
 .body-section .box-one {
   background: #f02ba6;
   background: linear-gradient(0deg, #f02ba6, #ff7048);
+  justify-content: flex-end;
 }
 .body-section h2 {
-  font-size: 2rem;
+  font-size: clamp(1.04rem, 0.72rem + 1.62vw, 2.24rem);
   text-align: left;
-  width: 75%;
+  width: 80%;
+  color: #13183f;
 }
 .body-section .body-img {
   align-self: flex-start;
   padding-bottom: 20px;
+}
+.body-section p {
+  font-size: 1.125rem;
+  color: #83869a;
 }
 
 @media screen and (max-width: 952px) {
@@ -199,5 +205,9 @@ nav button:hover {
   }
   .tablet-section {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .body-section {
+    width: 60%;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */

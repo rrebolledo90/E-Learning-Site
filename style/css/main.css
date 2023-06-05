@@ -69,7 +69,7 @@ nav button:hover {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  max-width: 1440px;
+  margin-bottom: 14.125rem;
 }
 
 .hero-content-cnt {
@@ -113,6 +113,42 @@ nav button:hover {
   display: none;
 }
 
+.body-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  grid-gap: 30px;
+}
+
+.body-section .box {
+  max-width: 21.875rem;
+  max-height: 20.125rem;
+  border-radius: 0.625rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 8.625rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.body-section .box-one {
+  background: #f02ba6;
+  background: linear-gradient(0deg, #f02ba6, #ff7048);
+}
+.body-section h2 {
+  font-size: 2rem;
+  text-align: left;
+  width: 75%;
+}
+.body-section .body-img {
+  align-self: flex-start;
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 952px) {
   .desktop-tablet-img {
     top: -100px;
@@ -127,6 +163,9 @@ nav button:hover {
   }
   section .media-hero-img {
     top: -90px;
+  }
+  .tablet-section {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 649px) {
@@ -144,6 +183,9 @@ nav button:hover {
   section .hero-body {
     width: 92%;
   }
+  .tablet-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 648px) {
   .mobile-img-two {
@@ -154,5 +196,8 @@ nav button:hover {
   .nav-btn {
     padding: 7px 15.5008px;
     font-size: 1rem;
+  }
+  .tablet-section {
+    grid-template-columns: repeat(1, 1fr);
   }
 }/*# sourceMappingURL=main.css.map */

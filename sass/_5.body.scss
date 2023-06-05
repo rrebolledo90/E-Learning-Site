@@ -1,0 +1,38 @@
+.body-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  grid-gap: 30px;
+}
+
+.body-section {
+  .box {
+    max-width: 21.875rem;
+    max-height: 20.125rem;
+    border-radius: 0.625rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 8.625rem;
+    background-color: color(color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .box-one {
+    background: #f02ba6;
+    background: linear-gradient(0deg, #f02ba6, #ff7048);
+  }
+
+  h2 {
+    font-size: font(fontsize-m-title);
+    text-align: left;
+    width: 75%;
+  }
+  .body-img {
+    align-self: flex-start;
+    padding-bottom: 20px;
+  }
+}
